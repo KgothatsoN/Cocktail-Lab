@@ -25,7 +25,7 @@ const getData = () => {
         drinkImage.src = data.drinks[0].strDrinkThumb
         drinkName.innerHTML = data.drinks[0].strDrink
         glassType.innerHTML = data.drinks[0].strGlass
-        ingredient1.innerHTML = data.drinks[0].strIngredient1
+        ingredient1.textContent = data.drinks[0].strIngredient1
         ingredient2.innerHTML = data.drinks[0].strIngredient2
         ingredient3.innerHTML = data.drinks[0].strIngredient3
         ingredient4.innerHTML = data.drinks[0].strIngredient4
@@ -33,6 +33,5 @@ const getData = () => {
         ingredient6.innerHTML = data.drinks[0].strIngredient6
         ingredient7.innerHTML = data.drinks[0].strIngredient7
         instructions.innerHTML = data.drinks[0].strInstructions
-        console.log(data)
     }); 
 }
