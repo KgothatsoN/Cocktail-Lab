@@ -16,6 +16,11 @@ background-size: cover;
     height: 100%;
     padding: 50px;
 }
+
+.drink-name {
+    display: flex;
+    justify-content: center;
+}
 .card.mb-3  {
     max-width: 750px;
     box-shadow: 0px 0px 10px 6px #0000008f;
